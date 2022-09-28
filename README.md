@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Words App
 
 This folder contains the source code for the Words app codelab.
@@ -24,3 +25,7 @@ The app demonstrates the use of Intents in two ways:
 2. Download the sample.
 3. Import the sample into Android Studio.
 4. Build and run the sample.
+=======
+# WordsApp
+An app with letters and corresponding words for them, the meaning of which can be found on the Internet directly from the app.
+>>>>>>> 5bc0010b429de67aea4f6c12bc877a1af35d7658
