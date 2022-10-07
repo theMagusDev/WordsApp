@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Words App
 
 This folder contains the source code for the Words app codelab.
@@ -14,18 +13,3 @@ of the RecyclerView can be changed between a vertical list or a grid of items.
 The app demonstrates the use of Intents in two ways:
 * to navigate inside an app by specifying an explicit destination, and,
 * allowing Android to service the Intent using the apps and resources present on the device.
-
-# Pre-requisites
-* Experience with Kotlin syntax.
-* Able to create an Activity.
-* Able to create a RecyclerView and supply it with data.
-
-# Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
-=======
-# WordsApp
-An app with letters and corresponding words for them, the meaning of which can be found on the Internet directly from the app.
->>>>>>> 5bc0010b429de67aea4f6c12bc877a1af35d7658
