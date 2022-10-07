@@ -49,4 +49,41 @@ class ExampleOfAnnotationsWorkInTest {
     fun teatDownFunction() {
         println("Tear down function")
     }
+    
+    /* Output:
+    Set up class
+    Set up function
+    Test a
+    Tear down function
+    Set up function
+    Test b
+    Tear down function
+    Set up function
+    Test c
+    Tear down function
+    Tear down class
+
+    So, the order of execution:
+
+    setupClass(),
+    setupFunction(),
+    test_a(),
+    tearDownFunction(),
+    setupFunction(),
+    test_b(),
+    tearDownFunction(),
+    setupFunction(),
+    test_c(),
+    tearDownFunction(),
+    tearDownClass()
+
+    OR
+
+    @BeforeClass
+    @Before
+    @Test
+    @After
+    @AfterClass
+
+     */
 }
