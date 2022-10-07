@@ -11,12 +11,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.wordsapp.databinding.FragmentLetterListBinding
 import com.example.wordsapp.databinding.FragmentWordListBinding
 
-private var _binding: FragmentWordListBinding? = null
-private val binding get() = _binding!!
-private lateinit var recyclerView: RecyclerView
-private lateinit var letterId: String
-
 class WordListFragment : Fragment() {
+
+    private var _binding: FragmentWordListBinding? = null
+    private val binding get() = _binding!!
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var letterId: String
+
     companion object {
         const val LETTER = "letter"
         const val SEARCH_PREFIX = "https://www.google.com/search?q="
